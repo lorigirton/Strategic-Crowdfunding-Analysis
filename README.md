@@ -5,8 +5,9 @@ For the first worksheet, I utilized formulas and formatting to create a percent 
 
 <img width="877" alt="Worksheet 1" src="https://github.com/lorigirton/excel-challenge/assets/134968527/3cc5da62-da03-4a7a-b142-fe89bb75375a">
 
+
 Next, I created a new sheet with a pivot table analyzing the number of successful, live, failed and canceled campaigns by category.
 
-
+<img width="738" alt="Sheet 2" src="https://github.com/lorigirton/excel-challenge/assets/134968527/d3cec5e7-e158-49fa-9c2c-92efe28c72ac">
 
 

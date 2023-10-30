@@ -18,14 +18,47 @@ Lastly, the "Statistical Analysis" sheet (Figure 6) was created in order to gain
 *Figure 1
 
 
-<img width="877" alt="Worksheet 1" src="https://github.com/lorigirton/excel-challenge/assets/134968527/3cc5da62-da03-4a7a-b142-fe89bb75375a">
-
-*Figure 1
-
-
-
-
-<img width="738" alt="Sheet 2" src="https://github.com/lorigirton/excel-challenge/assets/134968527/d3cec5e7-e158-49fa-9c2c-92efe28c72ac">
+<img src="Visuals/Success_by_Category.png">
 
 *Figure 2
 
+<img src="Visuals/Success_by_Subcategory.png">
+
+*Figure 3
+
+<img src="Visuals/Success_by_Date.png">
+
+*Figure 4
+
+<img src="Visuals/Goal_Analysis.png">
+
+*Figure 5
+
+<img src="Visuals/Statistical_Analysis.png">
+
+# Analysis
+
+Given the provided data, what are three conclusions we can draw about crowdfunding campaigns?
+June and July have the most successful crowdfunding success. August was the least successful month with the lowest amount of successful crowdfunding campaigns and one of the highest number of failed campaigns.
+
+The category of theater and subcategory of plays have the most crowdfunding campaigns.
+
+The $15,000 to & $19,999 goal as well as the $30,000 to $34,999 goal amounts had 100% success however they only had 10 and 7 campaigns respectively. Out of the 3 highest total crowdfunding campaign goal ranges, the $1,000 to $4,999 had the highest success at 82% followed by $5,000 to $9,999 at 52% success. The greater than $50,000 only had 36% success.
+
+What are some limitations of this dataset?
+
+Some limitations of this dataset are that we don't know much about the creators of the campaign and if we had more information, we could have a better definition of success as well as see if there are few donors with large donation sizes and compare these with success and failures. 
+
+If we knew more about the creators of the campaign, we could see if we could collect data on how renowned they are (example how many followers on social media) and what efforts have they done outside of the crowdfunding source to create buzz.
+
+Also, if we had access to each of the donations within each crowdfunding campaign, we could search to see if there are single donors who made large donations. The number of backers was higher in the successful campaigns versus the failed campaigns, however the variance was higher in the successful campaigns. It would be interesting to see if this was because certain campaigns had single large contributions from single donors in the successful campaigns and not so much in the unsuccessful campaigns. There may be other trends that could emerge from analysis of this data as well.
+
+The definition of success in this project was whether the creator reached their goal or the number of backers for the campaign . However, success could also be measured by whether the money raised fulfilled its intended purpose. Some of the people who raised money but didn’t reach “success” as defined could have still fulfilled their project goal (with less money). The opposite could be true as well; someone who reached “success” as we defined it could have not fulfilled its intended purpose. However, success defined this way would be harder to efficiently measure. 
+
+What are some other possible tables and/or graphs that we could create, and what additional value would they provide?
+
+We could create a pivot table with the average goal for success vs. failed and compare it to the average donation of success vs. failed. It would be interesting to see if there is a correlation with goal size or donation size and success/failure. This information could help future crowd sourcers develop a realistic goal for success.
+
+We could also add an additional pivot graph on the category and subcategory tabs to see the percentage of successful/failed campaigns within each category or subcategory. The current graph shows us which campaigns are more popular but it is harder to read the percentage comparison of successful/failed because there is a larger number of theater/play campaigns and the other categories show a smaller display.
+
+Additionally we could dig deeper into the greater than $50,000 goal “failed” campaigns to see what the percentage of pledged/goal divided into ranges (ex. 0-25%, 26-50%, 51-75%, 76-99%) that way we could determine what percentage of the goal was met. A lot of the goals were significantly lower and having a lofty goal of greater than $50,000 would have higher pledge amounts and it would be interesting to see what percentage of failed were within the 76-99% pledge/goal compared to the other ranges. It would be helpful to know whether crowdfunders receive more pledge amount by setting the goal higher. We could create a pivot table and graph to display this information.

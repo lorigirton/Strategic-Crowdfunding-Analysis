@@ -1,7 +1,15 @@
 # excel-challenge
-For this project, I was given the task to analyze crowdfunding campaigns from an Excel dataset provided by edX Boot Camps LLC. Crowdfunding is when users utilize social media platforms to raise money for a cause. 
+For this project, I was tasked with analyzing crowdfunding campaigns from an Excel dataset provided by edX Boot Camps LLC. Crowdfunding is when users utilize social media platforms to raise money for a cause. 
 
-For the first worksheet (see Figure 1), I utilized formulas and formatting to create a percent funded column with cells filled with different colors based on conditions. I also created an average donation column and splitted the column "Category and Sub-Catergory" column into two separate columns. Next, I created a new sheet (Figure 2) with a pivot table analyzing the number of successful, live, failed and canceled campaigns by category.
+For the first worksheet (see Figure 1), I utilized formulas and formatting to create a percent funded column with cells filled with different colors based on conditions. I also created an average donation column and splitted the column "Category and Sub-Catergory" column into two separate columns. 
+
+Next, I created a new sheet (Figure 2) with a pivot table analyzing the number of successful, live, failed and canceled campaigns by category and a pivot chart visualization. 
+
+The third sheet (Figure 3) is a stacked-column pivot chart analyzing campaigns by subcategory. 
+
+In order to create the fourth sheet (Figure 4), I first had to add a column to worksheet 1 coverting the "launched_at" column  to a new column "date_created_conversion" using a formula to convert the timestamp to a normal date. I did the same to convert the "deadline" timestamp to a new column "date_ended_conversion." Next, I was able to utilize the converted columns into a pivot table that has a column of "outcome", row of "Date Created Conversion," values based on the count of "outcome," and filters based on "parent category" and "Years." Last, I created a pivot table line chart to visualize this data.
+
+
 
 <img width="877" alt="Worksheet 1" src="https://github.com/lorigirton/excel-challenge/assets/134968527/3cc5da62-da03-4a7a-b142-fe89bb75375a">
 

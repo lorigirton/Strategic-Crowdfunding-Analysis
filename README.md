@@ -15,32 +15,32 @@ Lastly, the "Statistical Analysis" sheet (Figure 6) was created in order to gain
 
 <img src="Visuals/Crowdfunding.png">
 *Figure 1
-
+---
 
 
 <img src="Visuals/Success_by_Category.png">
 *Figure 2
-
+---
 
 
 <img src="Visuals/Success_by_Subcategory.png">
 *Figure 3
-
+---
 
 
 <img src="Visuals/Success_by_Date.png">
 *Figure 4
-
+---
 
 
 <img src="Visuals/Goal_Analysis.png">
 *Figure 5
-
+---
 
 
 <img src="Visuals/Statistical_Analysis.png">
 *Figure 6
-
+---
 
 # Analysis
 

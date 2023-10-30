@@ -13,45 +13,38 @@ For the "Goal Analysis" sheet (Figure 5), I created a new column called "Goal" w
 
 Lastly, the "Statistical Analysis" sheet (Figure 6) was created in order to gain a better understanding of campaign backers. I first created four columns; successful outcomes, number of backers, unsuccessful outcomes, number of backers. I then utilized formulas to find the mean backers, median backers, minumum backers, maximum backers, variance of the number of backers, and the standard deviation of backers for both successful and unsuccessful campaigns. 
 
-<img src="Visuals/Crowdfunding.png">
-*Figure 1  
-****
-
-
-<img src="Visuals/Success_by_Category.png">
-*Figure 2
+Figure 1: <img src="Visuals/Crowdfunding.png">
 
 
 
-<img src="Visuals/Success_by_Subcategory.png">
-*Figure 3
+Figure 2: <img src="Visuals/Success_by_Category.png">
 
 
 
-<img src="Visuals/Success_by_Date.png">
-*Figure 4
----
+Figure 3: <img src="Visuals/Success_by_Subcategory.png">
 
 
-<img src="Visuals/Goal_Analysis.png">
-*Figure 5
----
 
 
-<img src="Visuals/Statistical_Analysis.png">
-*Figure 6
----
+Figure 4: <img src="Visuals/Success_by_Date.png">
+
+
+Figure 5: <img src="Visuals/Goal_Analysis.png">
+
+
+
+Figure 6: <img src="Visuals/Statistical_Analysis.png">
 
 # Analysis
 
-Given the provided data, what are three conclusions we can draw about crowdfunding campaigns?
+## Given the provided data, what conclusions we can draw about crowdfunding campaigns?
 June and July have the most successful crowdfunding success. August was the least successful month with the lowest amount of successful crowdfunding campaigns and one of the highest number of failed campaigns.
 
 The category of theater and subcategory of plays have the most crowdfunding campaigns.
 
 The $15,000 to & $19,999 goal as well as the $30,000 to $34,999 goal amounts had 100% success however they only had 10 and 7 campaigns respectively. Out of the 3 highest total crowdfunding campaign goal ranges, the $1,000 to $4,999 had the highest success at 82% followed by $5,000 to $9,999 at 52% success. The greater than $50,000 only had 36% success.
 
-What are some limitations of this dataset?
+## What are some limitations of this dataset?
 
 Some limitations of this dataset are that we don't know much about the creators of the campaign and if we had more information, we could have a better definition of success as well as see if there are few donors with large donation sizes and compare these with success and failures. 
 
@@ -61,7 +54,7 @@ Also, if we had access to each of the donations within each crowdfunding campaig
 
 The definition of success in this project was whether the creator reached their goal or the number of backers for the campaign . However, success could also be measured by whether the money raised fulfilled its intended purpose. Some of the people who raised money but didn’t reach “success” as defined could have still fulfilled their project goal (with less money). The opposite could be true as well; someone who reached “success” as we defined it could have not fulfilled its intended purpose. However, success defined this way would be harder to efficiently measure. 
 
-What are some other possible tables and/or graphs that we could create, and what additional value would they provide?
+## What are some other possible tables and/or graphs that we could create, and what additional value would they provide?
 
 We could create a pivot table with the average goal for success vs. failed and compare it to the average donation of success vs. failed. It would be interesting to see if there is a correlation with goal size or donation size and success/failure. This information could help future crowd sourcers develop a realistic goal for success.
 

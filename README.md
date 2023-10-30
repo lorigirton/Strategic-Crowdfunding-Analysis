@@ -1,4 +1,5 @@
 # excel-challenge
+## Introduction
 For this project, I was tasked with analyzing crowdfunding campaigns from an Excel dataset provided by edX Boot Camps LLC. Crowdfunding is when users utilize social media platforms to raise money for a cause. 
 
 For the "Crowdfunding" worksheet (Figure 1), I utilized formulas and formatting to create a percent funded column with cells filled with different colors based on conditions. I also created an average donation column and splitted the column "Category and Sub-Catergory" column into two separate columns. 

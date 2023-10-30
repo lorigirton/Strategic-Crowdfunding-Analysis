@@ -14,27 +14,33 @@ For the "Goal Analysis" sheet (Figure 5), I created a new column called "Goal" w
 Lastly, the "Statistical Analysis" sheet (Figure 6) was created in order to gain a better understanding of campaign backers. I first created four columns; successful outcomes, number of backers, unsuccessful outcomes, number of backers. I then utilized formulas to find the mean backers, median backers, minumum backers, maximum backers, variance of the number of backers, and the standard deviation of backers for both successful and unsuccessful campaigns. 
 
 <img src="Visuals/Crowdfunding.png">
-
 *Figure 1
 
 
-<img src="Visuals/Success_by_Category.png">
 
+<img src="Visuals/Success_by_Category.png">
 *Figure 2
 
-<img src="Visuals/Success_by_Subcategory.png">
 
+
+<img src="Visuals/Success_by_Subcategory.png">
 *Figure 3
 
-<img src="Visuals/Success_by_Date.png">
 
+
+<img src="Visuals/Success_by_Date.png">
 *Figure 4
 
-<img src="Visuals/Goal_Analysis.png">
 
+
+<img src="Visuals/Goal_Analysis.png">
 *Figure 5
 
+
+
 <img src="Visuals/Statistical_Analysis.png">
+*Figure 6
+
 
 # Analysis
 

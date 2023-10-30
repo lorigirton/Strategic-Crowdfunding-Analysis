@@ -62,3 +62,7 @@ We could create a pivot table with the average goal for success vs. failed and c
 We could also add an additional pivot graph on the category and subcategory tabs to see the percentage of successful/failed campaigns within each category or subcategory. The current graph shows us which campaigns are more popular but it is harder to read the percentage comparison of successful/failed because there is a larger number of theater/play campaigns and the other categories show a smaller display.
 
 Additionally we could dig deeper into the greater than $50,000 goal “failed” campaigns to see what the percentage of pledged/goal divided into ranges (ex. 0-25%, 26-50%, 51-75%, 76-99%) that way we could determine what percentage of the goal was met. A lot of the goals were significantly lower and having a lofty goal of greater than $50,000 would have higher pledge amounts and it would be interesting to see what percentage of failed were within the 76-99% pledge/goal compared to the other ranges. It would be helpful to know whether crowdfunders receive more pledge amount by setting the goal higher. We could create a pivot table and graph to display this information.
+
+## Credits
+
+I used the website ablebits.com for help with the COUNTIFS formula. I also utized help from the AskBCS Learning Assistants to add newly created columns to my pivot table by clicking "refresh" under "data."

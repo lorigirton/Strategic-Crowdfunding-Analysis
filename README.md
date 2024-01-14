@@ -2,39 +2,23 @@
 ## Introduction
 For this project, I was tasked with analyzing crowdfunding campaigns from an Excel dataset provided by edX Boot Camps LLC. Crowdfunding is when users utilize social media platforms to raise money for a cause. 
 
+Figure 1: <img src="Visuals/Crowdfunding.png">
 For the "Crowdfunding" worksheet (Figure 1), I utilized formulas and formatting to create a percent funded column with cells filled with different colors based on conditions. I also created an average donation column and split the "Category and Sub-Catergory" column into two separate columns. 
 
+Figure 2: <img src="Visuals/Success_by_Category.png">
 Next, I created a "Success by Category" sheet (Figure 2) with a pivot table analyzing the number of successful, live, failed and canceled campaigns by category and a pivot chart visualization. 
 
+Figure 3: <img src="Visuals/Success_by_Subcategory.png">
 The "Success by Subcategory" sheet (Figure 3) is a stacked-column pivot chart analyzing campaigns by subcategory. 
 
+Figure 4: <img src="Visuals/Success_by_Date.png">
 In order to create the "Success by Date" sheet (Figure 4), I first had to add a column to worksheet 1 coverting the "launched_at" column  to a new column "date_created_conversion" using a formula to convert the timestamp to a normal date. I did the same to convert the "deadline" timestamp to a new column "date_ended_conversion." Next, I was able to utilize the converted columns into a pivot table that has a column of "outcome", row of "Date Created Conversion," values based on the count of "outcome," and filters based on "parent category" and "Years." Last, I created a pivot table line chart to visualize this data.
 
+Figure 5: <img src="Visuals/Goal_Analysis.png">
 For the "Goal Analysis" sheet (Figure 5), I created a new column called "Goal" where I utilized the COUNTIFS() formula to count how many successful, failed, and canceled projects were created with goals of differing ranges. 
 
-Lastly, the "Statistical Analysis" sheet (Figure 6) was created in order to gain a better understanding of campaign backers. I first created four columns; successful outcomes, number of backers, unsuccessful outcomes, number of backers. I then utilized formulas to find the mean backers, median backers, minumum backers, maximum backers, variance of the number of backers, and the standard deviation of backers for both successful and unsuccessful campaigns. 
-
-Figure 1: <img src="Visuals/Crowdfunding.png">
-
-
-
-Figure 2: <img src="Visuals/Success_by_Category.png">
-
-
-
-Figure 3: <img src="Visuals/Success_by_Subcategory.png">
-
-
-
-
-Figure 4: <img src="Visuals/Success_by_Date.png">
-
-
-Figure 5: <img src="Visuals/Goal_Analysis.png">
-
-
-
 Figure 6: <img src="Visuals/Statistical_Analysis.png">
+Lastly, the "Statistical Analysis" sheet (Figure 6) was created in order to gain a better understanding of campaign backers. I first created four columns; successful outcomes, number of backers, unsuccessful outcomes, number of backers. I then utilized formulas to find the mean backers, median backers, minumum backers, maximum backers, variance of the number of backers, and the standard deviation of backers for both successful and unsuccessful campaigns. 
 
 # Analysis
 
@@ -65,4 +49,4 @@ Additionally we could dig deeper into the greater than $50,000 goal “failed”
 
 ## Credits
 
-I used the website ablebits.com for help with the COUNTIFS formula. I also utized help from the AskBCS Learning Assistants to add newly created columns to my pivot table by clicking "refresh" under "data."
+This project was part of fictional data provided by edX Data Analytics Bootcamp. I utilized the website ablebits.com for help with the COUNTIFS formula. I also utized help from the AskBCS Learning Assistants to add newly created columns to my pivot table by clicking "refresh" under "data."

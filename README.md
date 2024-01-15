@@ -1,52 +1,77 @@
 # excel-challenge
 ## Introduction
-For this project, I was tasked with analyzing crowdfunding campaigns from an Excel dataset provided by edX Boot Camps LLC. Crowdfunding is when users utilize social media platforms to raise money for a cause. 
+In the scope of this project, I was tasked with the analysis of crowdfunding campaigns, sourced from an Excel dataset supplied by edX Boot Camps LLC, wherein crowdfunding referes to the strategic utilization of social media platforms by users for the purpose of fundraising.  
 
 Figure 1: <img src="Visuals/Crowdfunding.png">
-For the "Crowdfunding" worksheet (Figure 1), I utilized formulas and formatting to create a percent funded column with cells filled with different colors based on conditions. I also created an average donation column and split the "Category and Sub-Catergory" column into two separate columns. 
+In the "Crowdfunding" worksheet (Figure 1), I implemented advanced formulas and formatting to generate a "Percent Funded" column, employing distinctive color-coding for cells based on specific conditions. Additionally, I engineered an "Average Donation" column and performed a systematic segmentation of the "Category and Sub-Catergory" column into two distinct columns to enhance data clarity and analysis. 
 
 Figure 2: <img src="Visuals/Success_by_Category.png">
-Next, I created a "Success by Category" sheet (Figure 2) with a pivot table analyzing the number of successful, live, failed and canceled campaigns by category and a pivot chart visualization. 
+Subsequently, I established a "Success by Category" sheet (Figure 2), wherin I devised a comprehensive pivot table to analyze the count of successful, live, failed and canceled campaigns categorized by their respective categories. Furthermore, I complemented this analysis with a pivot chart visualization for enhanced interpretability. 
 
 Figure 3: <img src="Visuals/Success_by_Subcategory.png">
-The "Success by Subcategory" sheet (Figure 3) is a stacked-column pivot chart analyzing campaigns by subcategory. 
+The "Success by Subcategory" sheet (Figure 3) features a stacked-column pivot chart examining campaigns based on their subcategories, providing a visually informative representation of the distribution and outcomes within each subcategory. 
 
 Figure 4: <img src="Visuals/Success_by_Date.png">
-In order to create the "Success by Date" sheet (Figure 4), I first had to add a column to worksheet 1 coverting the "launched_at" column  to a new column "date_created_conversion" using a formula to convert the timestamp to a normal date. I did the same to convert the "deadline" timestamp to a new column "date_ended_conversion." Next, I was able to utilize the converted columns into a pivot table that has a column of "outcome", row of "Date Created Conversion," values based on the count of "outcome," and filters based on "parent category" and "Years." Last, I created a pivot table line chart to visualize this data.
+To construct the "Success by Date" sheet (Figure 4), I initially enhanced worksheet 1 by creating two new columns, "date_created_conversion," through the application of formulas to convert the "launched_at" and "deadline" timestamps, into standard date formats. Subsequently, I designed a pivot table with "outcome" as columns, "Date Created Conversion" as rows, values based on the count of "outcome," and filters based on "parent category" and "Years." Finally, I implemented a pivot table line chart to visualize this data.
 
 Figure 5: <img src="Visuals/Goal_Analysis.png">
-For the "Goal Analysis" sheet (Figure 5), I created a new column called "Goal" where I utilized the COUNTIFS() formula to count how many successful, failed, and canceled projects were created with goals of differing ranges. 
+In the "Goal Analysis" sheet (Figure 5), I introduced a new column called "Goal" employing the COUNTIFS() formula to count the number of successful, failed, and canceled projects categorized into various goal ranges. 
 
 Figure 6: <img src="Visuals/Statistical_Analysis.png">
-Lastly, the "Statistical Analysis" sheet (Figure 6) was created in order to gain a better understanding of campaign backers. I first created four columns; successful outcomes, number of backers, unsuccessful outcomes, number of backers. I then utilized formulas to find the mean backers, median backers, minumum backers, maximum backers, variance of the number of backers, and the standard deviation of backers for both successful and unsuccessful campaigns. 
+Finally, the "Statistical Analysis" sheet (Figure 6) was formulated to gain a better understanding of campaign backers. Beginning with the establishment of four columns, distinguishing successful outcomes and the corresponding number of backers, as well as unsuccessful outcomes and their associated backers, I subsequently applied formulas to compute the mean, median, minumum, maximum, variance, and standard deviation of backers for both successful and unsuccessful campaigns. 
 
 # Analysis
 
 ## Given the provided data, what conclusions we can draw about crowdfunding campaigns?
-June and July have the most successful crowdfunding success. August was the least successful month with the lowest amount of successful crowdfunding campaigns and one of the highest number of failed campaigns.
 
-The category of theater and subcategory of plays have the most crowdfunding campaigns.
+1.  **Monthly Success Rates:**
+  - June and July stand out as the most successful months, while August shows the least success, characterized by a low number of successful campaigns and a relatively high number of failures.
 
-The $15,000 to & $19,999 goal as well as the $30,000 to $34,999 goal amounts had 100% success however they only had 10 and 7 campaigns respectively. Out of the 3 highest total crowdfunding campaign goal ranges, the $1,000 to $4,999 had the highest success at 82% followed by $5,000 to $9,999 at 52% success. The greater than $50,000 only had 36% success.
+2. **Category and Subcategory Insights:**
+  - The theater category, particularly within the subcategory of plays, emonstrates the highest frequency of crowdfunding campaigns, indicating notable interest in this niche.
+
+3. **Goal Analysis:**
+  - Campaigns with goal amounts ranging between $15,000 to $19,999 and $30,000 to $34,999 achieve a 100% success rate, albeit with a smaller number of campaigns (10 and 7, respectively).
+  - Among the top three total crowdfunding campaign goal ranges, the $1,000 to $4,999 range attains the highest success rate at 82%, followed by $5,000 to $9,999 with a 52% success rate.
+  - In contrast, campaigns with goals exceeding $50,000 exhibit a lower success rate of 36%.
+
+These conclusions provide valuable insights into the patterns and trends within crowdfunding campaigns, allowing for strategic considerations in planning and optimizing future endeavors.
 
 ## What are some limitations of this dataset?
 
-Some limitations of this dataset are that we don't know much about the creators of the campaign and if we had more information, we could have a better definition of success as well as see if there are few donors with large donation sizes and compare these with success and failures. 
+1. **Limited Information about Creators:**
+  - The dataset lacks comprehensive information about the creators of the campaigns, limiting a detailed understanding of success. Additional details such as the creator's social media followers and external promotional efforts could provide valuable context.
 
-If we knew more about the creators of the campaign, we could see if we could collect data on how renowned they are (example how many followers on social media) and what efforts have they done outside of the crowdfunding source to create buzz.
+2. **Single Donor Analysis:**
+   - Absence of data on individual donations within each campaign limits the ability to identify trends related to large contributions from single donors. Exploring the presence of substantial donations in successful campaigns compared to failed ones could unveil additional insights.
 
-Also, if we had access to each of the donations within each crowdfunding campaign, we could search to see if there are single donors who made large donations. The number of backers was higher in the successful campaigns versus the failed campaigns, however the variance was higher in the successful campaigns. It would be interesting to see if this was because certain campaigns had single large contributions from single donors in the successful campaigns and not so much in the unsuccessful campaigns. There may be other trends that could emerge from analysis of this data as well.
+3. **Success Definition:**
+   - The definition of success in this project is based on whether the creator reached their financial goal or the number of backers. However, success could also be measured by the effective utilization of raised funds for the intended purpose. This dataset does not capture such nuanced success criteria.
+  - Success, as defined in the project, focuses on achieving fundraising goals. Yet, there is a potential discrepancy between reaching the defined financial target and the actual fulfillment of the project's intended purpose. Assessing project success beyond financial metrics may provide a more comprehensive understanding.
+  - While the current definition of success is straightforward, measuring success based on the actual impact or fulfillment of project goals might be more complex and challenging to assess efficiently within the scope of this dataset.
 
-The definition of success in this project was whether the creator reached their goal or the number of backers for the campaign . However, success could also be measured by whether the money raised fulfilled its intended purpose. Some of the people who raised money but didn’t reach “success” as defined could have still fulfilled their project goal (with less money). The opposite could be true as well; someone who reached “success” as we defined it could have not fulfilled its intended purpose. However, success defined this way would be harder to efficiently measure. 
+Recognizing these limitations is crucial for a nuanced interpretation of the findings and emphasizes the potential for further data enrichment and refinement in future analyses.
 
 ## What are some other possible tables and/or graphs that we could create, and what additional value would they provide?
 
-We could create a pivot table with the average goal for success vs. failed and compare it to the average donation of success vs. failed. It would be interesting to see if there is a correlation with goal size or donation size and success/failure. This information could help future crowd sourcers develop a realistic goal for success.
+1. **Average Goal vs. Average Donation Analysis:**
+   - **Table:** Create a pivot table comparing the average goal for successful campaigns versus failed campaigns alongside the average donation for successful campaigns versus failed campaigns.
+   - **Graph:** Visualize the relationship between goal size, donation size, and campaign success/failure. This analysis could provide insights into correlations, helping future campaigners set realistic goals for success.
 
-We could also add an additional pivot graph on the category and subcategory tabs to see the percentage of successful/failed campaigns within each category or subcategory. The current graph shows us which campaigns are more popular but it is harder to read the percentage comparison of successful/failed because there is a larger number of theater/play campaigns and the other categories show a smaller display.
+2. **Percentage of Successful/Failed Campaigns by Category and Subcategory:**
+   - **Graph Enhancement:** Add an additional pivot graph to the category and subcategory tabs to display the percentage of successful and failed campaigns within each category or subcategory. This will offer a clearer comparison of success/failure rates across different categories, addressing the current challenge of interpretation due to varying campaign counts.
 
-Additionally we could dig deeper into the greater than $50,000 goal “failed” campaigns to see what the percentage of pledged/goal divided into ranges (ex. 0-25%, 26-50%, 51-75%, 76-99%) that way we could determine what percentage of the goal was met. A lot of the goals were significantly lower and having a lofty goal of greater than $50,000 would have higher pledge amounts and it would be interesting to see what percentage of failed were within the 76-99% pledge/goal compared to the other ranges. It would be helpful to know whether crowdfunders receive more pledge amount by setting the goal higher. We could create a pivot table and graph to display this information.
+3. **In-Depth Analysis of "Greater than $50,000" Failed Campaigns:**
+   - **Table:** Create a pivot table to examine the percentage of pledged amount relative to the goal within ranges (e.g., 0-25%, 26-50%, 51-75%, 76-99%) for failed campaigns with goals exceeding $50,000.
+   - **Graph:** Visualize the distribution of failed campaigns in different pledge/goal ranges. This analysis can shed light on whether lofty goals in the "greater than $50,000" category receive higher pledge amounts and help understand the distribution of failed campaigns within various pledge/goal ranges.
+
+These additional tables and graphs would provide valuable insights into the nuances of crowdfunding dynamics, allowing for a more informed and strategic approach in future crowdfunding endeavors.
 
 ## Credits
 
-This project was part of fictional data provided by edX Data Analytics Bootcamp. I utilized the website ablebits.com for help with the COUNTIFS formula. I also utized help from the AskBCS Learning Assistants to add newly created columns to my pivot table by clicking "refresh" under "data."
+This project was conducted using fictional data provided by edX Data Analytics Bootcamp. 
+
+Special thanks to:
+-**[ablebits.com](https://www.ablebits.com/)**: Utilized for assistance with the COUNTIFS formula. 
+
+-**AskBCS Learning Assistants**: Grateful for their support in adding newly created columns to the pivot table by clicking "refresh" under "data."

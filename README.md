@@ -1,4 +1,4 @@
-# excel-challenge
+# Strategic Crowdfunding Analysis
 ## Introduction
 In the scope of this project, I was tasked with the analysis of crowdfunding campaigns, sourced from an Excel dataset supplied by edX Boot Camps LLC, wherein crowdfunding referes to the strategic utilization of social media platforms by users for the purpose of fundraising.  
 
